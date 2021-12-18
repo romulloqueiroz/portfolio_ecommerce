@@ -1,56 +1,10 @@
-import {
-  Homepage,
-  DirectoryMenu,
-  MenuItem,
-  Content,
-  Title,
-  Subtitle
-} from './Home.styles'
+import { Homepage } from './Home.styles'
+import { Directory } from '../../containers'
 
-
-const Home = () => {
-  return (
-    <Homepage>
-      <DirectoryMenu>
-
-        <MenuItem>
-          <Content>
-            <Title>HATS</Title>
-            <Subtitle>SHOP NOW</Subtitle>
-          </Content>
-        </MenuItem>
-
-        <MenuItem>
-          <Content>
-            <Title>JACKETS</Title>
-            <Subtitle>SHOP NOW</Subtitle>
-          </Content>
-        </MenuItem>
-
-        <MenuItem>
-          <Content>
-            <Title>SNEAKERS</Title>
-            <Subtitle>SHOP NOW</Subtitle>
-          </Content>
-        </MenuItem>
-
-        <MenuItem>
-          <Content>
-            <Title>WOMENS</Title>
-            <Subtitle>SHOP NOW</Subtitle>
-          </Content>
-        </MenuItem>
-
-        <MenuItem>
-          <Content>
-            <Title>MENS</Title>
-            <Subtitle>SHOP NOW</Subtitle>
-          </Content>
-        </MenuItem>
-
-      </DirectoryMenu>
-    </Homepage>
-  )
-}
+const Home = () => (
+  <Homepage>
+    <Directory />
+  </Homepage>
+)
 
 export default Home

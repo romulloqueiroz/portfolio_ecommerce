@@ -8,6 +8,6 @@ export default createGlobalStyle`
     scroll-behavior: smooth;
   }
   body {
-    font-family: Roboto;
+    font-family: Open Sans Condensed;
   } 
 `
