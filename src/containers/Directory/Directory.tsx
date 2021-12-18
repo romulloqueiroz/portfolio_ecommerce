@@ -7,8 +7,8 @@ const Directory = () => {
   const [sectionsState] = useState(sections)
   return (
     <DirectoryMenu>
-      {sectionsState.map(({ id, imageUrl, size, ...props }) => (
-        <MenuItem key={id} imageUrl={imageUrl} size={size} {...props} />
+      {sectionsState.map(({ id, ...props }) => (
+        <MenuItem key={id} {...props} />
       ))}
     </DirectoryMenu>
   )
