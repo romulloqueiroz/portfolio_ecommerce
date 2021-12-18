@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { color } from './colors'
 
 export default createGlobalStyle`
   * {
@@ -11,4 +12,8 @@ export default createGlobalStyle`
     font-family: Open Sans Condensed;
     padding: 20px 60px;
   } 
+  a {
+    text-decoration: none;
+    color: ${color.black};
+  }
 `
