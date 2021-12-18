@@ -9,5 +9,6 @@ export default createGlobalStyle`
   }
   body {
     font-family: Open Sans Condensed;
+    padding: 20px 60px;
   } 
 `
